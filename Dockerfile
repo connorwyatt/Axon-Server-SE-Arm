@@ -1,4 +1,4 @@
-FROM --platform=arm64 gcr.io/distroless/java:11
+FROM --platform=arm64 adoptopenjdk:11.0.11_9-jre-hotspot
 
 WORKDIR /app
 
